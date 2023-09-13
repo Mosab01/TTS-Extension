@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Text-to-Speech Extension",
+  "version": "1.0",
+  "description": "Convert text to speech using the Eleven Labs API.",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "host_permissions": ["https://api.elevenlabs.io/"]
+}
